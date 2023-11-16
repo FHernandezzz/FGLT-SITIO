@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Current Store - Referencias</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+          <img src="img/lgblack.jpeg" alt="Logo de la marca">
+      </div>
+      <nav class="menu-container">
+        <div class="menu-icon" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <ul class="menu-list">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="referencias.html">Referencias</a></li>
+            <li><a href="mision.html">Mision</a></li>
+        </ul>
+      </nav>
+      <a class="btn" href="contacto.html"><button>Contacto</button></a>
+      <div class="carrito-icon" onclick="verCarrito()">
+        <img class="carrito-img" src="img/pngtree-cart-shopping-cart-icon-png-free-illustration-image_2284387.jpg" alt="Carrito">
+        <span id="contador-carrito">0</span>
+      </div>
+    </header>
+    <h1 class="title">comentarios</h1>
+    <div class="container d-flex flex-column justify-content-center coments">
+      <div class="row">
+          <!-- Comentario 1 -->
+          <div class="col-sm-4">
+              <div class="card">
+                  <div class="row no-gutters">
+                      <div class="col-md-4">
+                          <img src="img/persona1.jpg" class="card-img" alt="Felipe Diaz">
+                      </div>
+                      <div class="col-md-8">
+                          <div class="card-body">
+                              <h5 class="card-title">Felipe Diaz</h5>
+                              <p class="card-text">Me encantaron los productos. Ademas siempre dispuesto a colaborar a productores que piensen en el ambiente!</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+            </div>
+        <!-- Comentario 2 -->
+        <div class="col-sm-4">
+          <div class="card">
+              <div class="row no-gutters">
+                  <div class="col-md-4">
+                      <img src="img/persona2.jpg" class="card-img" alt="Juana Deller">
+                  </div>
+                  <div class="col-md-8">
+                      <div class="card-body">
+                          <h5 class="card-title">Juana Deller </h5>
+                          <p class="card-text">Chicos siempre encantanda con sus productos, no defraudan.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+
+        <!-- Comentario 3 -->
+        <div class="col-sm-4">
+          <div class="card">
+              <div class="row no-gutters">
+                  <div class="col-md-4">
+                      <img src="img/persona3.jpg" class="card-img" alt="Brian Neustadt">
+                  </div>
+                  <div class="col-md-8">
+                      <div class="card-body">
+                          <h5 class="card-title">Brian Neustadt</h5>
+                          <p class="card-text">Una vez mas, gracias y gracias! Tengo regalo para navidad para mis primas, ademas sin dañar al mundo!</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container d-flex flex-column justify-content-center" style="height: auto; padding-bottom: 20vh;">
+      <div class="row">
+          <!-- Comentario 1 -->
+          <div class="col-sm-4">
+              <div class="card">
+                  <div class="row no-gutters">
+                      <div class="col-md-4">
+                          <img src="img/persona4.jpg" class="card-img" alt="Sabrina Cristaldo">
+                      </div>
+                      <div class="col-md-8">
+                          <div class="card-body">
+                              <h5 class="card-title">Sabrina Cristaldo</h5>
+                              <p class="card-text">10/10 lo que me llegó. Lo que si me gustaria un poco mas de variedad para esta temporada. Saludos!</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+            </div>
+        <!-- Comentario 2 -->
+        <div class="col-sm-4">
+          <div class="card">
+              <div class="row no-gutters">
+                  <div class="col-md-4">
+                      <img src="img/persona5.jpg" class="card-img" alt="Marco Llorente">
+                  </div>
+                  <div class="col-md-8">
+                      <div class="card-body">
+                          <h5 class="card-title">Marco Llorente</h5>
+                          <p class="card-text">Primera vez que compro y no lo puedo creer! GRACIAS TOTALES</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+
+        <!-- Comentario 3 -->
+        <div class="col-sm-4">
+          <div class="card">
+              <div class="row no-gutters">
+                  <div class="col-md-4">
+                      <img src="img/persona6.jpg" class="card-img" alt="Marta Wasserstrass">
+                  </div>
+                  <div class="col-md-8">
+                      <div class="card-body">
+                          <h5 class="card-title">Marta Wasserstrass</h5>
+                          <p class="card-text">LLegó lo que pedi, se lo recomiendo cada dia a familiares y amigos por que lo valen!!!</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
