@@ -1,0 +1,352 @@
+
+body, .header * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    color: black !important; 
+}
+
+body {
+    background-color: #fff59d;
+    text-align: center;
+}
+
+.header {
+    background-color: #1b3039;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+    width: 100%;
+}
+
+.header .logo {
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.header .logo img {
+    height: 70px;
+    width: auto;
+    transition: all 0.3s;
+    border-radius: 100%;
+}
+
+.header .logo img:hover {
+    transform: scale(1.2);
+}
+
+
+.menu-container, .menu-icon, .menu-list, .menu-list li, .menu-list a {
+    color: black !important; 
+}
+
+.menu-list li:hover {
+    transform: scale(1.1);
+}
+
+.menu-list a {
+    font-size: 700;
+    text-decoration: none;
+}
+
+.menu-list li a:hover {
+    color: #ffbc0e !important; 
+}
+
+.header .btn button {
+    margin-left: 20px;
+    font-weight: 700;
+    color: #1b3039;
+    padding: 9px 25px;
+    background: #eceff1;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.header .btn button:hover {
+    background-color: #e2f1f8;
+    color: #ffbc0e;
+    transform: scale(1.1);
+}
+
+
+.my-img {
+    object-fit: scale-down;
+}
+
+
+#carouselExampleCaptions {
+    background-color: #303030;
+}
+
+.title {
+    color: black !important; 
+    font-size: 40px; 
+    font-weight: 700; 
+    text-transform: uppercase; 
+    text-align: center; 
+    background-color: rgb(211, 180, 86), 156, 118;
+    padding: 10px; 
+    border-radius: 10px; 
+    letter-spacing: 1px;
+    font-family: 'Nunito', sans-serif; 
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8); 
+}
+
+.titlemain {
+    color: white !important; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); 
+    font-size: 36px; 
+    font-weight: 700; 
+    letter-spacing: 1px; 
+    font-family: 'Nunito', sans-serif;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 300px;
+    object-fit: fill;
+}
+
+.card{
+    width: 80%;
+    object-fit: fill;
+}
+.card-title {
+    color: black;
+}
+.card-text{
+    color: black;
+}
+
+.card-personas{
+    width: 140%;
+    height: auto;
+    object-fit: fill;;
+}
+
+.textomision {
+    color: black;
+    font-size: 18px;
+    line-height: 2.2; 
+    letter-spacing: 0.5px; 
+    text-align: justify; 
+    margin-bottom: 20px; 
+}
+.main-1 {
+    background: url('img/store.jpeg') no-repeat center center fixed;
+    -webkit-background-size: cover; 
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.textoIndex {
+    color: black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    font-size: 0.9em; 
+    font-weight: 700; 
+    letter-spacing: 1px; 
+    font-family: 'Nunito', sans-serif;
+}
+
+h5.textoIndex {
+    color: black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); 
+    font-size: 1.5em; 
+    font-weight: 700; 
+    letter-spacing: 1px; 
+    font-family: 'Nunito', sans-serif; 
+
+}
+
+
+.coments {
+    height: auto; 
+    padding-bottom: 20vh;
+}
+
+
+.carta-img {
+    border-radius: 100%;
+    object-fit: fill;
+    height: 200px;
+    width: 200px;
+    padding-top: 2vh;
+}
+
+
+.menu-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1b3039;
+    padding: 10px 20px;
+}
+
+.menu-icon {
+    cursor: pointer;
+    display: none; 
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 6px 0;
+}
+
+.menu-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+    color: white;
+}
+
+.menu-list li {
+    margin: 0 15px;
+}
+
+body, .header * {
+    color: black !important; 
+}
+
+.menu-list a {
+    font-size: 700;
+    color: white !important; 
+}
+
+.menu-list li a:hover {
+    color: #ffbc0e !important; 
+}
+
+.footer {
+    background-color: #1b3039;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0; 
+    margin-top: -100px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-icon img {
+    height: 30px;
+    width: auto;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  
+    .header {
+        justify-content: center; 
+        padding: 5px 10px; 
+    }
+
+    .header .logo img {
+        height: 5em; 
+    }
+
+    .header .btn button {
+        margin-left: 5px;
+        padding: 6px 12px; 
+    }
+
+ 
+    .menu-list li {
+        margin: 0 8px; 
+    }
+
+    .menu-list a {
+        font-size: 12px; 
+    }
+    .title {
+        font-size: 30px;  
+    }
+
+    .card {
+        margin: 0 auto;  
+    }
+
+    .card-title {
+        font-size: 18px;  
+    }
+
+    .card-text {
+        font-size: 14px;  
+    }
+
+    .btn-primary {
+        font-size: 14px;  
+    }
+
+    .card-img-top {
+        width: 100%;
+        object-fit: fill;
+    }
+    
+    .card {
+        width: 100%;
+        margin-bottom: 100px;
+    }
+    .card-personas{
+        width: 140%;
+        height: auto;
+        object-fit: fill;;
+    }
+    .card-body .btn {
+        font-size: 32px;  
+    }
+}
+
+
+/* Carrito de compras */
+.carrito-icon {
+    cursor: pointer;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+}
+
+#contador-carrito {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: black !important;  
+    color: white !important;
+}
+
+.carrito-img {
+    height: 2em;
+    width: 2em;
+    margin-right: 5px;
+}
+
+ 
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Current Store - Inicio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+          <img src="img/lgblack.jpeg" alt="Logo de la marca">
+      </div>
+      <nav class="menu-container">
+        <div class="menu-icon" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <ul class="menu-list">
+          <li><a href="index.html" class="menu-link">Inicio</a></li>
+          <li><a href="productos.html" class="menu-link">Productos</a></li>
+          <li><a href="referencias.html" class="menu-link">Referencias</a></li>
+          <li><a href="mision.html" class="menu-link">Mision</a></li>
+        </ul>
+      </nav>
+      <a class="btn" href="contacto.html"><button>Contacto</button></a>
+      <div class="carrito-icon" onclick="verCarrito()">
+        <img class="carrito-img" src="img/pngtree-cart-shopping-cart-icon-png-free-illustration-image_2284387.jpg" alt="Carrito">
+        <span id="contador-carrito">0</span>
+      </div>
+    </header>
+    <main class="d-flex flex-column align-items-center main-1" >
+      <section class="d-flex flex-column align-items-center">
+        <div class="content-s1 d-flex flex-column justify-content-center align-items-center ">
+          <h1 class="titlemain" style="margin-top: 2em;">Misión</h1>
+        </div>
+        <section class="container my-4 d-flex flex-column align-items-center">
+          <div class="card p-3 d-flex flex-column align-items-center" style="height: 20%; width: 80%;">
+              <p class="textomision" style="font-size: 20px;text-align: center;">
+                La misión de Current es liderar la revolución en la industria de la moda, proporcionando una alternativa sostenible y ética. Nos enfocamos en la producción de ropa 100% orgánica, sin utilizar materiales de origen animal. Nuestra misión es transformar telas orgánicas mediante procesos responsables, contribuyendo al medio ambiente y fomentando el consumo consciente.
+                
+                A través de nuestra plataforma web, buscamos ofrecer una experiencia de compra fácil y atractiva, permitiendo a los usuarios elegir prendas de alta calidad que reflejen nuestra dedicación a la sostenibilidad. Nos dirigimos a aquellos que buscan una moda respetuosa con el medio ambiente y los animales, promoviendo valores de calidad, comodidad y diseño.
+                
+                Como empresa, nos comprometemos a ser agentes de cambio positivo, difundiendo nuestra visión en redes sociales para inspirar una mayor conciencia sobre la importancia de la moda sostenible. Con el eslogan "Cambia tu guardarropa, cambia el mundo", impulsamos a nuestros clientes a ser parte activa de un movimiento hacia un futuro más sostenible y ético.</p>
+          </div>
+        </section>
+      </section>
+    </main> 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="index.js"></script>
+    <footer class="footer">
+        <div class="footer-container">
+          <a href="https://fhernandezzz.github.io/FGLT-SITIO/index.html" target="_blank" class="footer-icon">
+            <img src="img/lgblack.jpeg" alt="UADE Icon">
+          </a>
+        </div>
+      </footer>
+  </body>
+</html>
