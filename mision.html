@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Current Store - Inicio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+          <img src="img/lgblack.jpeg" alt="Logo de la marca">
+      </div>
+      <nav class="menu-container">
+        <div class="menu-icon" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <ul class="menu-list">
+          <li><a href="index.html" class="menu-link">Inicio</a></li>
+          <li><a href="productos.html" class="menu-link">Productos</a></li>
+          <li><a href="referencias.html" class="menu-link">Referencias</a></li>
+          <li><a href="mision.html" class="menu-link">Mision</a></li>
+        </ul>
+      </nav>
+      <a class="btn" href="contacto.html"><button>Contacto</button></a>
+      <div class="carrito-icon" onclick="verCarrito()">
+        <img class="carrito-img"
+          src="img/carritocompras.png" alt="Carrito">
+        <span id="contador-carrito">0</span>
+      </div>
+    </header>
+    <main class="d-flex flex-column align-items-center main-2" >
+      <section class="d-flex flex-column align-items-center">
+        <div class="content-s1 d-flex flex-column justify-content-center align-items-center ">
+          <h1 class="titlemain" style="margin-top: 2em;">Misión</h1>
+        </div>
+        <section class="container my-4 d-flex flex-column align-items-center">
+          <div class="card p-3 d-flex flex-column align-items-center" style="height: 20%; width: 80%;">
+            <p class="textomision" style="font-size: 20px; text-align: justify;">
+              Current lidera la moda con sostenibilidad y ética. Nos especializamos en ropa 100% orgánica, excluyendo materiales de origen animal y adoptando procesos de fabricación responsables. En nuestra plataforma web, ofrecemos una experiencia de compra fácil y atractiva, promoviendo valores de calidad, comodidad y diseño consciente. Como empresa, nos comprometemos a ser agentes de cambio positivo, inspirando conciencia sobre la importancia de la moda sustentable con el eslogan "Cambia tu guardarropa, cambia el mundo".
+          </p>
+          </div>
+        </section>
+      </section>
+    </main> 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="index.js"></script>
+    <footer class="footer">
+    <div class="footer-container">
+      <!-- Nombre de los integrantes del grupo -->
+      <p>Integrantes del grupo: Lázaro Casalla, Facundo Hernández, Tobías Casalla, Gian Parisi</p>
+  
+      <!-- Enlace al sitio del grupo (abre en otra pestaña) -->
+      <p><a href="https://fhernandezzz.github.io/grupofinalfinal/" target="_blank">Sitio del Grupo</a></p>
+  
+      <!-- Leyenda del trabajo grupal -->
+      <p>Trabajo Grupal - Materia: Diseño y Desarrollo Web</p>
+  
+      <!-- Imagen de logo (usando una genérica) -->
+      <a href="https://www.uade.edu.ar/" target="_blank">
+        <img class="logouade" src="img/uadepng.png" alt="Logo de UADE">
+      </a>
+      <!-- Texto de derechos reservados y enlace de donde se extrajeron las imágenes -->
+      <p>Derechos reservados. Imágenes extraídas de: <a href="enlace_de_donde_se_extrajeron_las_imagenes"
+          target="_blank">Fuente de Imágenes</a></p>
+    </div>
+  </footer>
+  </body>
+</html>
