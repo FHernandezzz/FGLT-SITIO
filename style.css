@@ -254,7 +254,7 @@ body, .header * {
     bottom: 0;
     width: 100%;
     left: 0; 
-    z-index: 1000; /* Asegura que el footer esté por encima de otros elementos */
+    z-index: 1000;  
 }
 
 #footerproducto{
@@ -266,7 +266,7 @@ body, .header * {
     width: 100%;
     position: fixed;
     left: 0; 
-    z-index: 1000; /* Asegura que el footer esté por encima de otros elementos */
+    z-index: 1000;  
 }
 
 .logouade{
@@ -348,7 +348,7 @@ body, .header * {
 }
 
 
-/* Carrito de compras */
+ 
 .carrito-icon {
     cursor: pointer;
     position: fixed;
@@ -356,13 +356,13 @@ body, .header * {
     right: 10px;
     z-index: 1000;
     background-color: white;
-    border-radius: 50%; /* Usamos 50% para hacer los bordes redondos */
+    border-radius: 50%;  
     width: 4em;
-    height: 4em; /* Aseguramos que el alto sea igual al ancho */
+    height: 4em;  
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Sombra para resaltar el carrito */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);  
 }
 
 #contador-carrito {
@@ -371,15 +371,15 @@ body, .header * {
     right: 0;
     background-color: black !important;  
     color: white !important;
-    border-radius: 50%; /* Agregamos bordes redondos al contador */
-    padding: 0.2em 0.5em; /* Ajustamos el relleno para que se vea mejor */
+    border-radius: 50%;  
+    padding: 0.2em 0.5em;  
 }
 
 .carrito-img {
     height: auto;
-    width: 2.5em; /* Ajustamos el tamaño de la imagen */
+    width: 2.5em;  
     margin-right: 5px;
-    border-radius: 50%; /* Bordes redondos para la imagen */
+    border-radius: 50%;  
 }
 
  
