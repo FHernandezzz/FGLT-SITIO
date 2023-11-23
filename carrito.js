@@ -5,14 +5,14 @@ window.onload = function () {
     carrito = JSON.parse(carritoGuardado);
   }
 
-  // Obtén el elemento donde deseas mostrar el contenido del carrito
-  var contenedor = document.getElementById("carrito"); // Reemplaza 'tuContenedor' con el ID real de tu contenedor
+  
+  var contenedor = document.getElementById("carrito"); 
 
-  // Construye el HTML
-  var html = "<ul>"; // Puedes usar ul para crear una lista, por ejemplo
+
+  var html = "<ul>"; 
 
   for (var i = 0; i < carrito.length; i++) {
-    // Cambiado a carrito.length
+   
     html += "<li>";
     html += "Nombre: " + carrito[i].nombre + ", Precio: " + carrito[i].precio;
     html += "</li>";
@@ -38,22 +38,20 @@ function agregarAlCarrito(nombre, precio) {
 }
 
 function actualizarContadorCarrito() {
-  // const contadorCarrito = document.getElementById('contador-carrito');
-  // contadorCarrito.textContent = carrito.length;
 }
 
 function mostrarResumenCompra() {
-  // Aquí debes construir la lógica para mostrar el resumen de la compra en la página de pagos
+
 }
 
 function limpiarCarrito() {
   localStorage.removeItem("carrito");
-  window.location.reload(); // Recarga la página
+  window.location.reload();
 }
 
 function cancelarCompra() {
   limpiarCarrito();
-  window.location.href = "productos.html"; // Redirige a la página de productos
+  window.location.href = "productos.html"; 
 }
 
 function mostrarResumenCompra() {
@@ -63,13 +61,13 @@ function mostrarResumenCompra() {
   if (carrito.length === 0) {
     paginaPagos.innerHTML += "<p>No hay productos en el carrito.</p>";
   } else {
-    // Mostrar cada producto en el carrito
+
     paginaPagos.innerHTML += "<h2>Productos en el carrito:</h2>";
     carrito.forEach((producto) => {
       paginaPagos.innerHTML += `<p>${producto.nombre} - $${producto.precio}</p>`;
     });
 
-    // Mostrar el precio total
+
     const precioTotal = carrito.reduce(
       (total, producto) => total + producto.precio,
       0
@@ -77,7 +75,7 @@ function mostrarResumenCompra() {
     paginaPagos.innerHTML += `<h2>Precio Total: $${precioTotal}</h2>`;
   }
 
-  // Botones de acciones
+
   paginaPagos.innerHTML += `
       <button onclick="limpiarCarrito()">Limpiar Carrito</button>
       <button onclick="cancelarCompra()">Cancelar Compra</button>
